@@ -1,0 +1,45 @@
+.handsontable {
+	thead th {
+		background-color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: left;	
+		margin:0;
+		.relative {
+			padding:0;
+			margin:0;
+		}
+		&:hover, &:active, &:visited {
+			text-decoration: none;
+		};
+	}
+
+	th {
+		border-top: 0 !important;
+	}
+	
+	td {
+		border-bottom: 0;
+		padding-top: 5px;
+		border-top: 1px solid #E2E2E2 !important;
+	}
+	tr:last-child td {
+		border-top: 0;
+		border-bottom: 1px solid #E2E2E2 !important;
+	}
+	th, td {
+		border-left: 0 !important;
+		border-right: 0 !important;	
+	}
+	&.ht_clone_bottom {
+		background: #fff;
+	    z-index: 100;
+	}
+	.wtBorder {
+	  display: none !important;
+	}
+	.ht__highlight {
+		background:none !important;
+	}
+}
+

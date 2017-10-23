@@ -1,0 +1,42 @@
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+
+	.handle {
+	    font-size: 0.9em;
+	    text-align: center;
+	    background-color: #E8E8E8;
+	    /*border: 1px solid #E2E2E2;*/
+	    color: white;
+	    cursor: pointer;
+	    top: 0px;
+	    width: 20px;
+	    height: 20px;
+	    border-radius: 100%;
+	}
+	.handle.active {
+	    background-color: #E2E2E2;
+	}
+	.bar {
+	    position: relative;
+	    background: #F5F5F4;
+	    border-radius: 10px;
+	    top: 0px;
+	    height: 18px;
+	}
+	.bar-0 {
+		border: 1px solid #E2E2E2;
+	}
+	.bar-1 {
+		background: #377BB5;
+		border: 1px solid #377BB5;
+	}
+	.bar-2 {
+		border: 1px solid #E2E2E2;
+	}
+}
+
+
